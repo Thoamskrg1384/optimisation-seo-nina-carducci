@@ -7,6 +7,8 @@
 	<meta name="description"
 		content="Site web de la photographe Nina Carducci, basée sur Bordeaux. Veritable passionnée, elle met en image toute sorte d'évènements et immortalise les moments chers à vos coeurs.">
 
+	<meta http-equiv="Cache-Control" content="max-age=31536000, public">
+
 	<!-- Meta données pour Instagram -->
 	<meta property="insta:username" content="ninacarducci.photo">
 
@@ -95,20 +97,31 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="./assets/images/slider/ryoji_iwata-1920.webp" srcset="
-               ./assets/images/slider/ryoji_iwata-375.webp 375w,
-               ./assets/images/slider/ryoji_iwata-768.webp 768w,
-               ./assets/images/slider/ryoji_iwata-1440.webp 1440w,
-               ./assets/images/slider/ryoji_iwata-1920.webp 1920w
-         " sizes="100vw" alt="Un homme en costume traversant la rue" class="d-block w-100" fetchpriority="high"
-						width="1920" height="888" />
+               			./assets/images/slider/ryoji_iwata-375.webp 375w,
+               			./assets/images/slider/ryoji_iwata-768.webp 768w,
+               			./assets/images/slider/ryoji_iwata-1440.webp 1440w,
+               			./assets/images/slider/ryoji_iwata-1920.webp 1920w"
+						sizes="(max-width: 375px) 375px, (max-width: 768px) 768px, (max-width: 1440px) 1440px, 1920px"
+						alt="Un homme en costume traversant la rue" class="d-block w-100" fetchpriority="high" width="1920"
+						height="888" />
 				</div>
 				<div class="carousel-item">
-					<img loading="lazy" src="./assets/images/slider/nicholas-green.webp"
+					<img loading="lazy" srcset="
+						./assets/images/slider/nicholas-green-375.webp 375w,
+						./assets/images/slider/nicholas-green-768.webp 768w,
+						./assets/images/slider/nicholas-green-1440.webp 1440w,
+						./assets/images/slider/nicholas-green-1920.webp 1920w" src="./assets/images/slider/nicholas-green.webp"
+						sizes="(max-width: 375px) 375px, (max-width: 768px) 768px, (max-width: 1440px) 1440px, 1920px"
 						alt="Photo d'une foule gens les bras en l'air dans un évenement" class="d-block w-100" width="1920"
 						height="888" />
 				</div>
 				<div class="carousel-item">
-					<img loading="lazy" src="./assets/images/slider/edward-cisneros.webp"
+					<img loading="lazy" srcset="
+						./assets/images/slider/edward-cisneros-375.webp 375w,
+						./assets/images/slider/edward-cisneros-768.webp 768w,
+						./assets/images/slider/edward-cisneros-1440.webp 1440w,
+						./assets/images/slider/edward-cisneros-1920.webp 1920w" src="./assets/images/slider/edward-cisneros.webp"
+						sizes="(max-width: 375px) 375px, (max-width: 768px) 768px, (max-width: 1440px) 1440px, 1920px"
 						alt="Photo d'un couple de mariés qui dans et s'embrasse" class="d-block w-100" width="1920" height="888" />
 				</div>
 			</div>
@@ -140,15 +153,20 @@
 				<h1 class="about-me__title">À propos de moi, Nina Carducci, photographe par vocation...</h1>
 				<h2 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné.
-					Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me
+					Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà
+					ce qui me
 					fait vibrer.</h2>
-				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
+				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
+					le
 					figer
-					au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le
+					au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou
+					le
 					partager
 					au plus grand nombre.
-					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
-					technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
+					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon
+					approche, ma
+					technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de
+					la
 					tendresse
 					et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
@@ -184,8 +202,10 @@
 			<div class="quote">
 				<figure>
 					<blockquote>
-						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est
-							traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en
+						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+							fait est
+							traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe
+							pas en
 							photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
@@ -199,7 +219,8 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Shooting photo</h3>
-						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
+						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace
+							en
 							Île-de-France pour réaliser vos photos</p>
 					</div>
 					<div class="service__price">
@@ -211,7 +232,8 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Retouches</h3>
-						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour
+						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
+							optimal pour
 							vos
 							publications</p>
 					</div>
@@ -223,7 +245,8 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Album photos</h3>
-						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album
+						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers
+							un album
 							photo
 							personnalisé</p>
 					</div>
@@ -238,7 +261,8 @@
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou
+					<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+						traits ou
 						une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
@@ -266,7 +290,9 @@
 								./assets/images/camera768.webp 768w,
 								./assets/images/camera1440.webp 1440w,
 								./assets/images/camera1920.webp 1920w
-					" alt="photo d'un appareil photo reflex Leica" sizes="100vw" fetchpriority="high" width="418" height="417">
+					" alt="photo d'un appareil photo reflex Leica"
+						sizes="(max-width: 375px) 375px, (max-width: 768px) 768px, (max-width: 1440px) 1440px, 1920px"
+						fetchpriority="high" width="418" height="417">
 				</div>
 			</div>
 		</section>
